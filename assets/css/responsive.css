@@ -1,0 +1,9 @@
+@media (min-width: 1025px) {
+  #page {
+    background-size: 100% 500px;
+  }
+  h1 {
+    font-size: 60px;
+    line-height: 64px;
+  }
+}

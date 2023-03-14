@@ -1,0 +1,291 @@
+body {
+  margin: 0px;
+}
+h1,
+h2,
+h3 {
+  font-family: chronicle display, serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+html body,
+button,
+input,
+select,
+textarea {
+  color: #404040;
+  font-family: gotham, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#page {
+  background: transparent url(../imgs/thf-background.jpg) no-repeat 0 0;
+}
+.site-branding .site-title {
+  display: block;
+  width: 336px;
+  height: 120px;
+  margin: 0;
+}
+.site-branding .site-title a {
+  background: #386274;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-bottom: 0;
+  position: relative;
+}
+.heritage-icon-heritage_logo {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 58px;
+  line-height: 120px;
+  backface-visibility: hidden;
+  z-index: 1000;
+  color: #fff;
+}
+.heritage-icon-heritage_logo:before {
+  content: "\e90d";
+  color: #fff;
+}
+.other-ways-menu {
+  background: #252a2f;
+  display: block;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  color: #fff;
+  padding: 0 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.other-ways-menu .dropdown-arrow {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+}
+.dropdown-arrow {
+  background: transparent url(../imgs/dropdown-arrow.png) no-repeat 0 0;
+  width: 35px;
+  height: 19px;
+}
+/* Header End */
+
+/* Body Start */
+#main {
+  max-width: 1150px;
+  margin: auto;
+}
+.site-content {
+  background-color: #fff;
+  margin-top: 80px;
+  padding: 4% 8%;
+}
+.stripe-donation {
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+.stripe-donation .holder {
+  margin: 1.5em 0;
+}
+.stripe-donation h4 {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.stripe-donation .amt-button:hover {
+  background-color: #79acc9;
+}
+.stripe-donation .amt-button.active {
+  background: #004d88;
+  color: #fff;
+}
+.stripe-donation .amt-button {
+  background-color: #aabac4;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
+}
+.stripe-donation .amt-button {
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 1em;
+  padding: 12px 0;
+  margin-bottom: 20px;
+}
+.stripe-donation div[class^="col"] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.stripe-donation .form-group {
+  margin-bottom: 10px;
+}
+.stripe-donation input[type="checkbox"] {
+  display: none;
+}
+.stripe-donation .checkbox label {
+  padding-left: 30px;
+}
+.stripe-donation input[type="checkbox"] + label:after {
+  letter-spacing: 10px;
+}
+.stripe-donation input[type="checkbox"] + label:after {
+  content: "\f096";
+}
+.stripe-donation input[type="checkbox"] + label:after {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 2em;
+  margin-left: -30px;
+  float: left;
+  margin-top: 2px;
+  line-height: 0.8em;
+}
+.apple-pay-holder {
+  display: none;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+div.StripeElement {
+  color: #666;
+  padding: 3px;
+  outline: none;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #c5d1d8;
+  border-radius: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.stripe-donation-form .holder.creditcard-holder {
+  position: relative;
+  border: 2px solid #386274;
+  border-radius: 5px;
+  background-color: #e1e8ed;
+  padding: 0 20px;
+  margin: 1.5em 0;
+}
+
+element.style {
+}
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+  border-color: #aaa #bbb #bbb;
+  box-shadow: inset 0 -1px 0 rgb(255 255 255 / 50%),
+    inset 0 2px 5px rgb(0 0 0 / 15%);
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  //border-color: #ccc#bbb#aaa;
+  //box-shadow: inset01px0rgba(255,255,255,0.8),inset015px17pxrgba(255,255,255,0.8),inset0-5px12pxrgba(0,0,0,0.02);
+  background-color: #79acc9;
+}
+.stripe-donation .btn {
+  font-size: 1.4em;
+}
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+  background-image: none;
+}
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn.active,
+.btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+  box-shadow: inset 0 3px 5px rgb(0 0 0 / 13%);
+}
+
+button :not(.ub-emb-close),
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border: 0 solid;
+  background: #6193b4;
+  color: #fff;
+  font-size: 12px !important;
+  line-height: 1;
+  padding: 0 2em;
+  text-transform: uppercase;
+  height: 50px;
+  letter-spacing: 1px;
+  min-width: 200px;
+  border-radius: 0;
+}
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #79acc9;
+}
+/* Body End */
+/* Footer Start */
+.site-footer {
+  background-color: #252a2f;
+}
+
+element.style {
+}
+.footer-content {
+  width: 80.46%;
+  margin: 55px auto;
+  color: #fff;
+}
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+/* Footer End */
