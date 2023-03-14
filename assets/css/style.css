@@ -259,6 +259,27 @@ input[type="reset"]:hover,
 input[type="submit"]:hover {
   background-color: #79acc9;
 }
+.stripe-donation input[type="checkbox"]:checked + label:after {
+  letter-spacing: 6.5px;
+}
+.stripe-donation input[type="checkbox"]:checked + label:after {
+  content: "\f046";
+}
+.stripe-donation input[type="checkbox"] + label:after {
+  letter-spacing: 10px;
+}
+.stripe-donation input[type="checkbox"] + label:after {
+  content: "\f096";
+}
+.stripe-donation input[type="checkbox"] + label:after {
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 2em;
+  margin-left: -30px;
+  float: left;
+  margin-top: 2px;
+  line-height: 0.8em;
+}
 /* Body End */
 /* Footer Start */
 .site-footer {
@@ -289,3 +310,15 @@ element.style {
   table-layout: fixed;
 }
 /* Footer End */
+
+/* Menu Bar Start */
+.other-ways-content {
+  background-color: #252a2f;
+  color: #fff;
+  padding: 40px 20px;
+  width: 510px;
+  position: absolute;
+  top: 140px;
+  right: 0;
+}
+/* Menu Bar End */

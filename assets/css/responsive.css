@@ -7,3 +7,21 @@
     line-height: 64px;
   }
 }
+
+@media (max-width: 768px) {
+  #page {
+    background-image: none;
+    background-color: white;
+  }
+  .site-branding .site-title {
+    width: 100%;
+  }
+  .other-ways-menu {
+    top: 120px;
+    width: 100%;
+  }
+  .other-ways-content {
+    top: 190px;
+    width: 100%;
+  }
+}
